@@ -1,13 +1,12 @@
 // http://api.weatherapi.com/v1/current.json?key=f198547106d84c7a805104142252406&q=hyderabad&aqi=no
 
-const temperature=document.querySelector(".temp ");
-const locationfield=document.querySelector(".time_location p");
-const datafield=document.querySelector(".time_location span");
-const weathercondition=document.querySelector(".condition p");
-const searchbox=document.querySelector(".serach_area");
-// const searchbutton=document.querySelector(".searchbutton");
-const form=document.querySelector("form");
-const icon=document.querySelector(".icon");
+const temperature = document.querySelector(".temp p");
+const locationfield = document.querySelector(".time_location p");
+const datafield = document.querySelector(".time_location span");
+const weathercondition = document.querySelector(".condition p");
+const searchbox = document.querySelector(".search_area");
+const form = document.querySelector("form");
+const icon = document.querySelector(".icon");
 
 form.addEventListener("submit",searchForLocation);
 
