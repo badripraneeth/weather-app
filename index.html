@@ -6,40 +6,37 @@
     <title>Weather</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="container">
-  <div class="Weather_container">
-        <div class="temp">
-          <p>20</p>
-          <span class="sp">°C</span>
+      <div class="weather-card">
+        <div class="Weather_container">
+          <div class="temp">
+            <p>20</p>
+            <span class="sp">°C</span>
+          </div>
+          <div class="time_location">
+            <p>Delhi</p>
+            <span>12:30 - MONDAY 2025-09-23</span>
+          </div>
+          <div class="condition">
+            <img width="40px" class="icon" src="images/starry-night.png" alt="Weather Icon" />
+            <p>Mist</p>
+          </div>
         </div>
-        <div class="time_location">
-          <p>Delhi</p>
-          <span>12:30 - MONDAY 2025-09-23</span>
-        </div>
-
-        <div class="condition">
-          <!-- <p></p> -->
-           <img  width="40px"  class="icon" src="images/starry-night.png" alt="Weather Icon" />
-          
-          <p>Mist</p>
-        </div>
+        <nav>
+          <form>
+            <input
+              type="text"
+              placeholder="Search for a location"
+              class="search_area"
+              autocomplete="off"
+            />
+            <button type="submit" class="searchbutton">Search</button>
+          </form>
+        </nav>
       </div>
-       <nav>
-      <form>
-          <input
-            type="text"
-            placeholder="search for a location"
-            class="search_area"
-          />
-          <button type="submit" class="searchbutton">Search Button</button>
-      </form>
-    </nav>
     </div>
-
-   
-
-   
+    <script src="script.js"></script>
   </body>
-   <script src="script.js"></script>
 </html>
